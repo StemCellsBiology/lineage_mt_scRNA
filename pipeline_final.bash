@@ -19,7 +19,6 @@ if [[ ! -s "$SEURAT_BARCODE_TABLE" ]]; then
     exit 1
 fi
 
-TSNE_PERPLEXITY=30
 MIN_MT_READS=200
 MAPQ=30
 CHR_M="chrM"
@@ -332,17 +331,6 @@ do
     elif [[ -f "${bam_dir}/${filename}.barcodes.tsv" ]]; then
         barcode_file="${bam_dir}/${filename}.barcodes.tsv"
 
-    elif [[ -f "${bam_dir}/barcodes.tsv.gz" ]]; then
-        barcode_file="${bam_dir}/barcodes.tsv.gz"
-
-    elif [[ -f "${bam_dir}/barcodes.tsv" ]]; then
-        barcode_file="${bam_dir}/barcodes.tsv"
-
-    elif [[ -f "${bam_dir}/filtered_feature_bc_matrix/barcodes.tsv.gz" ]]; then
-        barcode_file="${bam_dir}/filtered_feature_bc_matrix/barcodes.tsv.gz"
-
-    elif [[ -f "${bam_dir}/raw_feature_bc_matrix/barcodes.tsv.gz" ]]; then
-        barcode_file="${bam_dir}/raw_feature_bc_matrix/barcodes.tsv.gz"
     fi
 
     if [[ -z "$barcode_file" ]]; then
@@ -352,10 +340,6 @@ do
         echo "  ${bam_dir}/barcodes.${filename}.tsv"
         echo "  ${bam_dir}/${filename}.barcodes.tsv.gz"
         echo "  ${bam_dir}/${filename}.barcodes.tsv"
-        echo "  ${bam_dir}/barcodes.tsv.gz"
-        echo "  ${bam_dir}/barcodes.tsv"
-        echo "  ${bam_dir}/filtered_feature_bc_matrix/barcodes.tsv.gz"
-        echo "  ${bam_dir}/raw_feature_bc_matrix/barcodes.tsv.gz"
         exit 1
     fi
 
