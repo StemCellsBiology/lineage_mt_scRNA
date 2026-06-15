@@ -121,13 +121,7 @@ The filtered long-format table was the principal input for mitochondrial distanc
 
 ---
 
-## STEP 10. Not used
-
-No active analytical operation was implemented as STEP 10 in the final workflow.
-
----
-
-## STEP 12. Publication-like mitochondrial distance calculation and clustering
+## STEP 12. Mitochondrial distance calculation and clustering
 
 **Script:** `BAMs/scripts_new/plot_heatmap_and_cluster_publication_mito_distance_auto_k.R`
 
