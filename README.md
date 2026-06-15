@@ -191,10 +191,5 @@ The selected mtDNA cluster assignment was added to Seurat metadata as a sample-s
 
 The script generated a Seurat object containing mtDNA lineage metadata, a full metadata table, barcode-matching QC tables, per-cell mitochondrial variant hover tables, UMAP visualizations coloured by mtDNA cluster and selected QC variables, contingency tables comparing mtDNA clusters with sample, patient, Seurat clusters and cell annotations, and boxplots of RNA and mitochondrial QC variables across mtDNA clusters. When the required R packages were available, SVG and interactive HTML UMAP visualizations were also generated, with per-cell mitochondrial variant information included in hover text.
 
----
-
-## Output management and reproducibility
-
-Each sample was processed in a sample-specific working directory. Complete runs ending at STEP 15 were moved to the final results directory, whereas partial runs were left in the working directory to support controlled reruns. The pipeline stored sample-specific thresholds, including the empirical base-quality threshold, allowing downstream steps to be restarted without changing filtering parameters. Existing final result directories were not overwritten, preventing accidental replacement of completed analyses.
 
 This workflow therefore implemented a reproducible strategy for single-cell mtDNA lineage inference in which mitochondrial reads were selected under strict unique-mapping criteria, base-quality filtering was estimated empirically from the data, candidate variants were filtered using population-level and cell-level evidence, mitochondrial distances were calculated using per-cell/per-variant coverage-aware VAF comparisons, and final mtDNA lineages were interpreted in the context of annotated single-cell transcriptomic data.
