@@ -1,0 +1,147 @@
+Requested START_STEP: 15
+STOP_STEP: 151
+REST_MODE: SKIP
+SAMPLE_START_STEPS: none
+DEFAULT_USE_DPTH: 10
+DEFAULT_USE_ALT: 1
+DEFAULT_SAMPLES: BM119 BM120
+SELECTED_SAMPLES: BM119 BM120
+Final results directory: /data/KSzade/lineages/results
+/home/cluster_user/KSzade/sctanno_ksz/lineages/project
+Sample BM119 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM119.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM119
+Output directory: BAMs/all_samples_a1m95/BM119_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.use_ALT.txt
+Manual START_STEP for sample BM119: 15
+Effective SAMPLE_START_STEP for BM119: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 30
+Recovered cluster file: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.clusters.10.k30.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 17
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.clusters_fuzzy.10.k17.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM119.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM119
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM119:
+  Seurat barcodes for sample:      720
+  Cell Ranger barcodes available:  783
+  Final intersected barcodes:      720
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+30
+Cluster file selected for STEP 15:
+30	BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.clusters.10.k30.tsv
+Finished STEP 15 for auto-selected best_k=30 for BM119
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+17
+Fuzzy assigned cells in cluster file: 18
+Fuzzy assigned-only cluster file selected for STEP 15B:
+17	BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.clusters_fuzzy.10.k17.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k17.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k17.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=17 for BM119
+Finished: BM119
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample BM120 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM120.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM120
+Output directory: BAMs/all_samples_a1m95/BM120_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.use_ALT.txt
+Manual START_STEP for sample BM120: 15
+Effective SAMPLE_START_STEP for BM120: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 11
+Recovered cluster file: BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.clusters.10.k11.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 9
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.clusters_fuzzy.10.k9.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM120.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM120
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM120:
+  Seurat barcodes for sample:      681
+  Cell Ranger barcodes available:  713
+  Final intersected barcodes:      681
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+11
+Cluster file selected for STEP 15:
+11	BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.clusters.10.k11.tsv
+Finished STEP 15 for auto-selected best_k=11 for BM120
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+9
+Fuzzy assigned cells in cluster file: 9
+Fuzzy assigned-only cluster file selected for STEP 15B:
+9	BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.clusters_fuzzy.10.k9.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k9.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/BM120_mt_pipeline/BM120.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k9.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=9 for BM120
+Finished: BM120
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+All selected/default samples finished.

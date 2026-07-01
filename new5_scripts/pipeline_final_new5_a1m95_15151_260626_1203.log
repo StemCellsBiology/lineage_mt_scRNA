@@ -1,0 +1,1186 @@
+Requested START_STEP: 15
+STOP_STEP: 151
+REST_MODE: SKIP
+SAMPLE_START_STEPS: none
+DEFAULT_USE_DPTH: 10
+DEFAULT_USE_ALT: 1
+DEFAULT_SAMPLES: 3 4 95 99 26ctrl 153ctri 173ctrl 180ctrl A05234 A00103 A03211 Y06102 BM106 BM107 BM108 BM102 BM114 BM115 BM119 BM120
+SELECTED_SAMPLES: 3 4 95 99 26ctrl 153ctri 173ctrl 180ctrl A05234 A00103 A03211 Y06102 BM106 BM107 BM108 BM102 BM114 BM115 BM119 BM120
+Final results directory: /data/KSzade/lineages/results
+/home/cluster_user/KSzade/sctanno_ksz/lineages/project
+Sample 3 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/3.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: 3
+Output directory: BAMs/all_samples_a1m95/3_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/3_mt_pipeline/3.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/3_mt_pipeline/3.use_ALT.txt
+Manual START_STEP for sample 3: 15
+Effective SAMPLE_START_STEP for 3: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 15
+Recovered cluster file: BAMs/all_samples_a1m95/3_mt_pipeline/3.clusters.10.k15.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 11
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/3_mt_pipeline/3.clusters_fuzzy.10.k11.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.3.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/3_mt_pipeline/3.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: 3
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for 3:
+  Seurat barcodes for sample:      687
+  Cell Ranger barcodes available:  30000
+  Final intersected barcodes:      687
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+15
+Cluster file selected for STEP 15:
+15	BAMs/all_samples_a1m95/3_mt_pipeline/3.clusters.10.k15.tsv
+Finished STEP 15 for auto-selected best_k=15 for 3
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+11
+Fuzzy assigned cells in cluster file: 8
+Fuzzy assigned-only cluster file selected for STEP 15B:
+11	BAMs/all_samples_a1m95/3_mt_pipeline/3.clusters_fuzzy.10.k11.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/3_mt_pipeline/3.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k11.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/3_mt_pipeline/3.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k11.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=11 for 3
+Finished: 3
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample 4 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/4.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: 4
+Output directory: BAMs/all_samples_a1m95/4_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/4_mt_pipeline/4.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/4_mt_pipeline/4.use_ALT.txt
+Manual START_STEP for sample 4: 15
+Effective SAMPLE_START_STEP for 4: 15
+No STEP 12 best_k file found for STEP 15 recovery.
+Expected: BAMs/all_samples_a1m95/4_mt_pipeline/4.best_k.10.txt
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/4_mt_pipeline/4.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.4.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/4_mt_pipeline/4.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: 4
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for 4:
+  Seurat barcodes for sample:      2877
+  Cell Ranger barcodes available:  30000
+  Final intersected barcodes:      2877
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+Skipping STEP 15
+Reason: publication-like auto-k clustering was not suitable for Seurat mt-cluster annotation
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: 4
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample 95 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/95.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: 95
+Output directory: BAMs/all_samples_a1m95/95_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/95_mt_pipeline/95.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/95_mt_pipeline/95.use_ALT.txt
+Manual START_STEP for sample 95: 15
+Effective SAMPLE_START_STEP for 95: 15
+No STEP 12 best_k file found for STEP 15 recovery.
+Expected: BAMs/all_samples_a1m95/95_mt_pipeline/95.best_k.10.txt
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/95_mt_pipeline/95.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.95.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/95_mt_pipeline/95.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: 95
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for 95:
+  Seurat barcodes for sample:      22286
+  Cell Ranger barcodes available:  30000
+  Final intersected barcodes:      22286
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+Skipping STEP 15
+Reason: publication-like auto-k clustering was not suitable for Seurat mt-cluster annotation
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: 95
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample 99 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/99.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: 99
+Output directory: BAMs/all_samples_a1m95/99_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/99_mt_pipeline/99.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/99_mt_pipeline/99.use_ALT.txt
+Manual START_STEP for sample 99: 15
+Effective SAMPLE_START_STEP for 99: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 6
+Recovered cluster file: BAMs/all_samples_a1m95/99_mt_pipeline/99.clusters.10.k6.tsv
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/99_mt_pipeline/99.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.99.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/99_mt_pipeline/99.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: 99
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for 99:
+  Seurat barcodes for sample:      2864
+  Cell Ranger barcodes available:  30000
+  Final intersected barcodes:      2860
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+6
+Cluster file selected for STEP 15:
+6	BAMs/all_samples_a1m95/99_mt_pipeline/99.clusters.10.k6.tsv
+Finished STEP 15 for auto-selected best_k=6 for 99
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: 99
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample 26ctrl is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/26ctrl.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: 26ctrl
+Output directory: BAMs/all_samples_a1m95/26ctrl_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/26ctrl_mt_pipeline/26ctrl.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/26ctrl_mt_pipeline/26ctrl.use_ALT.txt
+Manual START_STEP for sample 26ctrl: 15
+Effective SAMPLE_START_STEP for 26ctrl: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 3
+Recovered cluster file: BAMs/all_samples_a1m95/26ctrl_mt_pipeline/26ctrl.clusters.10.k3.tsv
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/26ctrl_mt_pipeline/26ctrl.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.26ctrl.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/26ctrl_mt_pipeline/26ctrl.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: 26ctrl
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for 26ctrl:
+  Seurat barcodes for sample:      2944
+  Cell Ranger barcodes available:  3120
+  Final intersected barcodes:      2943
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+3
+Cluster file selected for STEP 15:
+3	BAMs/all_samples_a1m95/26ctrl_mt_pipeline/26ctrl.clusters.10.k3.tsv
+Finished STEP 15 for auto-selected best_k=3 for 26ctrl
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: 26ctrl
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample 153ctri is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/153ctri.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: 153ctri
+Output directory: BAMs/all_samples_a1m95/153ctri_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/153ctri_mt_pipeline/153ctri.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/153ctri_mt_pipeline/153ctri.use_ALT.txt
+Manual START_STEP for sample 153ctri: 15
+Effective SAMPLE_START_STEP for 153ctri: 15
+No STEP 12 best_k file found for STEP 15 recovery.
+Expected: BAMs/all_samples_a1m95/153ctri_mt_pipeline/153ctri.best_k.10.txt
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/153ctri_mt_pipeline/153ctri.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.153ctri.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/153ctri_mt_pipeline/153ctri.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: 153ctri
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for 153ctri:
+  Seurat barcodes for sample:      4495
+  Cell Ranger barcodes available:  4889
+  Final intersected barcodes:      4445
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+Skipping STEP 15
+Reason: publication-like auto-k clustering was not suitable for Seurat mt-cluster annotation
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: 153ctri
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample 173ctrl is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/173ctrl.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: 173ctrl
+Output directory: BAMs/all_samples_a1m95/173ctrl_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.use_ALT.txt
+Manual START_STEP for sample 173ctrl: 15
+Effective SAMPLE_START_STEP for 173ctrl: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 16
+Recovered cluster file: BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.clusters.10.k16.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 15
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.clusters_fuzzy.10.k15.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.173ctrl.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: 173ctrl
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for 173ctrl:
+  Seurat barcodes for sample:      460
+  Cell Ranger barcodes available:  514
+  Final intersected barcodes:      460
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+16
+Cluster file selected for STEP 15:
+16	BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.clusters.10.k16.tsv
+Finished STEP 15 for auto-selected best_k=16 for 173ctrl
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+15
+Fuzzy assigned cells in cluster file: 4
+Fuzzy assigned-only cluster file selected for STEP 15B:
+15	BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.clusters_fuzzy.10.k15.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k15.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/173ctrl_mt_pipeline/173ctrl.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k15.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=15 for 173ctrl
+Finished: 173ctrl
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample 180ctrl is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/180ctrl.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: 180ctrl
+Output directory: BAMs/all_samples_a1m95/180ctrl_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.use_ALT.txt
+Manual START_STEP for sample 180ctrl: 15
+Effective SAMPLE_START_STEP for 180ctrl: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 12
+Recovered cluster file: BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.clusters.10.k12.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 17
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.clusters_fuzzy.10.k17.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.180ctrl.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: 180ctrl
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for 180ctrl:
+  Seurat barcodes for sample:      574
+  Cell Ranger barcodes available:  692
+  Final intersected barcodes:      574
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+12
+Cluster file selected for STEP 15:
+12	BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.clusters.10.k12.tsv
+Finished STEP 15 for auto-selected best_k=12 for 180ctrl
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+17
+Fuzzy assigned cells in cluster file: 13
+Fuzzy assigned-only cluster file selected for STEP 15B:
+17	BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.clusters_fuzzy.10.k17.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k17.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/180ctrl_mt_pipeline/180ctrl.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k17.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=17 for 180ctrl
+Finished: 180ctrl
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample A05234 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/A05234.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: A05234
+Output directory: BAMs/all_samples_a1m95/A05234_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/A05234_mt_pipeline/A05234.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/A05234_mt_pipeline/A05234.use_ALT.txt
+Manual START_STEP for sample A05234: 15
+Effective SAMPLE_START_STEP for A05234: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 4
+Recovered cluster file: BAMs/all_samples_a1m95/A05234_mt_pipeline/A05234.clusters.10.k4.tsv
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/A05234_mt_pipeline/A05234.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.A05234.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/A05234_mt_pipeline/A05234.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: A05234
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for A05234:
+  Seurat barcodes for sample:      65
+  Cell Ranger barcodes available:  109
+  Final intersected barcodes:      65
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+4
+Cluster file selected for STEP 15:
+4	BAMs/all_samples_a1m95/A05234_mt_pipeline/A05234.clusters.10.k4.tsv
+Finished STEP 15 for auto-selected best_k=4 for A05234
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: A05234
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample A00103 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/A00103.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: A00103
+Output directory: BAMs/all_samples_a1m95/A00103_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.use_ALT.txt
+Manual START_STEP for sample A00103: 15
+Effective SAMPLE_START_STEP for A00103: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 8
+Recovered cluster file: BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.clusters.10.k8.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 8
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.clusters_fuzzy.10.k8.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.A00103.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: A00103
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for A00103:
+  Seurat barcodes for sample:      234
+  Cell Ranger barcodes available:  341
+  Final intersected barcodes:      234
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+8
+Cluster file selected for STEP 15:
+8	BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.clusters.10.k8.tsv
+Finished STEP 15 for auto-selected best_k=8 for A00103
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+8
+Fuzzy assigned cells in cluster file: 4
+Fuzzy assigned-only cluster file selected for STEP 15B:
+8	BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.clusters_fuzzy.10.k8.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k8.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/A00103_mt_pipeline/A00103.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k8.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=8 for A00103
+Finished: A00103
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample A03211 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/A03211.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: A03211
+Output directory: BAMs/all_samples_a1m95/A03211_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.use_ALT.txt
+Manual START_STEP for sample A03211: 15
+Effective SAMPLE_START_STEP for A03211: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 5
+Recovered cluster file: BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.clusters.10.k5.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 4
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.clusters_fuzzy.10.k4.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.A03211.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: A03211
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for A03211:
+  Seurat barcodes for sample:      62
+  Cell Ranger barcodes available:  198
+  Final intersected barcodes:      62
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+5
+Cluster file selected for STEP 15:
+5	BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.clusters.10.k5.tsv
+Finished STEP 15 for auto-selected best_k=5 for A03211
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+4
+Fuzzy assigned cells in cluster file: 4
+Fuzzy assigned-only cluster file selected for STEP 15B:
+4	BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.clusters_fuzzy.10.k4.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k4.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/A03211_mt_pipeline/A03211.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k4.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=4 for A03211
+Finished: A03211
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample Y06102 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/Y06102.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: Y06102
+Output directory: BAMs/all_samples_a1m95/Y06102_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.use_ALT.txt
+Manual START_STEP for sample Y06102: 15
+Effective SAMPLE_START_STEP for Y06102: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 15
+Recovered cluster file: BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.clusters.10.k15.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 7
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.clusters_fuzzy.10.k7.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.Y06102.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: Y06102
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for Y06102:
+  Seurat barcodes for sample:      195
+  Cell Ranger barcodes available:  376
+  Final intersected barcodes:      194
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+15
+Cluster file selected for STEP 15:
+15	BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.clusters.10.k15.tsv
+Finished STEP 15 for auto-selected best_k=15 for Y06102
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+7
+Fuzzy assigned cells in cluster file: 6
+Fuzzy assigned-only cluster file selected for STEP 15B:
+7	BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.clusters_fuzzy.10.k7.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k7.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/Y06102_mt_pipeline/Y06102.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k7.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=7 for Y06102
+Finished: Y06102
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample BM106 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM106.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM106
+Output directory: BAMs/all_samples_a1m95/BM106_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.use_ALT.txt
+Manual START_STEP for sample BM106: 15
+Effective SAMPLE_START_STEP for BM106: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 14
+Recovered cluster file: BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.clusters.10.k14.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 12
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.clusters_fuzzy.10.k12.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM106.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM106
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM106:
+  Seurat barcodes for sample:      1406
+  Cell Ranger barcodes available:  1686
+  Final intersected barcodes:      1406
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+14
+Cluster file selected for STEP 15:
+14	BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.clusters.10.k14.tsv
+Finished STEP 15 for auto-selected best_k=14 for BM106
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+12
+Fuzzy assigned cells in cluster file: 6
+Fuzzy assigned-only cluster file selected for STEP 15B:
+12	BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.clusters_fuzzy.10.k12.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k12.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/BM106_mt_pipeline/BM106.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k12.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=12 for BM106
+Finished: BM106
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample BM107 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM107.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM107
+Output directory: BAMs/all_samples_a1m95/BM107_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM107_mt_pipeline/BM107.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM107_mt_pipeline/BM107.use_ALT.txt
+Manual START_STEP for sample BM107: 15
+Effective SAMPLE_START_STEP for BM107: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 2
+Recovered cluster file: BAMs/all_samples_a1m95/BM107_mt_pipeline/BM107.clusters.10.k2.tsv
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/BM107_mt_pipeline/BM107.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM107.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM107_mt_pipeline/BM107.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM107
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM107:
+  Seurat barcodes for sample:      1901
+  Cell Ranger barcodes available:  2085
+  Final intersected barcodes:      1900
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+2
+Cluster file selected for STEP 15:
+2	BAMs/all_samples_a1m95/BM107_mt_pipeline/BM107.clusters.10.k2.tsv
+Finished STEP 15 for auto-selected best_k=2 for BM107
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: BM107
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample BM108 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM108.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM108
+Output directory: BAMs/all_samples_a1m95/BM108_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM108_mt_pipeline/BM108.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM108_mt_pipeline/BM108.use_ALT.txt
+Manual START_STEP for sample BM108: 15
+Effective SAMPLE_START_STEP for BM108: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 2
+Recovered cluster file: BAMs/all_samples_a1m95/BM108_mt_pipeline/BM108.clusters.10.k2.tsv
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/BM108_mt_pipeline/BM108.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM108.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM108_mt_pipeline/BM108.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM108
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM108:
+  Seurat barcodes for sample:      952
+  Cell Ranger barcodes available:  1138
+  Final intersected barcodes:      951
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+2
+Cluster file selected for STEP 15:
+2	BAMs/all_samples_a1m95/BM108_mt_pipeline/BM108.clusters.10.k2.tsv
+Finished STEP 15 for auto-selected best_k=2 for BM108
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: BM108
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample BM102 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM102.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM102
+Output directory: BAMs/all_samples_a1m95/BM102_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.use_ALT.txt
+Manual START_STEP for sample BM102: 15
+Effective SAMPLE_START_STEP for BM102: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 7
+Recovered cluster file: BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.clusters.10.k7.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 8
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.clusters_fuzzy.10.k8.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM102.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM102
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM102:
+  Seurat barcodes for sample:      1554
+  Cell Ranger barcodes available:  1698
+  Final intersected barcodes:      1554
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+7
+Cluster file selected for STEP 15:
+7	BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.clusters.10.k7.tsv
+Finished STEP 15 for auto-selected best_k=7 for BM102
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+8
+Fuzzy assigned cells in cluster file: 4
+Fuzzy assigned-only cluster file selected for STEP 15B:
+8	BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.clusters_fuzzy.10.k8.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k8.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/BM102_mt_pipeline/BM102.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k8.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=8 for BM102
+Finished: BM102
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample BM114 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM114.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM114
+Output directory: BAMs/all_samples_a1m95/BM114_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.use_ALT.txt
+Manual START_STEP for sample BM114: 15
+Effective SAMPLE_START_STEP for BM114: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 28
+Recovered cluster file: BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.clusters.10.k28.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 27
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.clusters_fuzzy.10.k27.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM114.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM114
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM114:
+  Seurat barcodes for sample:      2279
+  Cell Ranger barcodes available:  2622
+  Final intersected barcodes:      2279
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+28
+Cluster file selected for STEP 15:
+28	BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.clusters.10.k28.tsv
+Finished STEP 15 for auto-selected best_k=28 for BM114
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+Fuzzy best k selected for STEP 15B:
+27
+Fuzzy assigned cells in cluster file: 13
+Fuzzy assigned-only cluster file selected for STEP 15B:
+27	BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.clusters_fuzzy.10.k27.tsv
+Fuzzy full assignment file:
+BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.publication_mito.10.fuzzy.fuzzy_kmedoids.assignments.k27.tsv
+Fuzzy membership file:
+BAMs/all_samples_a1m95/BM114_mt_pipeline/BM114.publication_mito.10.fuzzy.fuzzy_kmedoids.membership.k27.tsv
+Finished STEP 15B for fuzzy auto-selected best_k=27 for BM114
+Finished: BM114
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample BM115 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM115.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM115
+Output directory: BAMs/all_samples_a1m95/BM115_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM115_mt_pipeline/BM115.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM115_mt_pipeline/BM115.use_ALT.txt
+Manual START_STEP for sample BM115: 15
+Effective SAMPLE_START_STEP for BM115: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 2
+Recovered cluster file: BAMs/all_samples_a1m95/BM115_mt_pipeline/BM115.clusters.10.k2.tsv
+No STEP 12B fuzzy best_k file found for STEP 15B recovery.
+Expected: BAMs/all_samples_a1m95/BM115_mt_pipeline/BM115.best_k_fuzzy.10.txt
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM115.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM115_mt_pipeline/BM115.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM115
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM115:
+  Seurat barcodes for sample:      3319
+  Cell Ranger barcodes available:  3741
+  Final intersected barcodes:      3319
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+2
+Cluster file selected for STEP 15:
+2	BAMs/all_samples_a1m95/BM115_mt_pipeline/BM115.clusters.10.k2.tsv
+WARNING: STEP 15 failed for BM115.
+See log:
+BAMs/all_samples_a1m95/BM115_mt_pipeline/BM115.qc_mt_clusters_on_seurat.best_k.log
+Skipping STEP 15B
+Reason: fuzzy k-medoids STEP 12B was not suitable for Seurat mt-cluster annotation or was not run
+Finished: BM115
+
+This was a partial run.
+START_STEP=15, STOP_STEP=151
+Not moving results to final storage.
+
+Sample BM119 is selected. It will use global START_STEP=15.
+============================================================
+Processing BAM: BAMs/all_samples_a1m95/BM119.bam
+============================================================
+BAM directory: BAMs/all_samples_a1m95
+Sample name: BM119
+Output directory: BAMs/all_samples_a1m95/BM119_mt_pipeline
+Using use_DPTH: 10
+Using use_ALT: 1
+use_DPTH file: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.use_DPTH.txt
+use_ALT file: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.use_ALT.txt
+Manual START_STEP for sample BM119: 15
+Effective SAMPLE_START_STEP for BM119: 15
+Recovered successful STEP 12 result for STEP 15.
+Recovered best_k: 30
+Recovered cluster file: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.clusters.10.k30.tsv
+Recovered successful STEP 12B fuzzy result for STEP 15B.
+Recovered fuzzy best_k: 17
+Recovered fuzzy cluster file: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.clusters_fuzzy.10.k17.tsv
+Barcode file: BAMs/all_samples_a1m95/barcodes.BM119.tsv.gz
+Barcode file is gzipped. Decompressing to: BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.barcodes.plain.all_from_cellranger.tsv
+Filtering barcodes using Seurat metadata table:
+/home/cluster_user/KSzade/sctanno_ksz/sctanno_ksz_all_cells_with_sample.tsv
+Sample: BM119
+Intersecting Seurat barcodes with Cell Ranger barcode list...
+Barcode filtering summary for BM119:
+  Seurat barcodes for sample:      720
+  Cell Ranger barcodes available:  783
+  Final intersected barcodes:      720
+Skipping STEP 1
+Skipping STEP 2
+Skipping STEP 3
+Skipping STEP 4
+Skipping STEP 5
+Skipping STEP 6
+START_STEP >= 12, so use_BQth.txt is not required.
+STEP 12/12B use filtered_variants_by_cell.long.tsv.gz directly.
+Skipping STEP 7
+Skipping STEP 8
+Skipping STEP 9
+Skipping STEP 11
+Skipping STEP 12
+Skipping STEP 12B
+Skipping STEP 13
+Skipping STEP 14
+STEP 15: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for one auto-selected best_k
+Best k selected for STEP 15:
+30
+Cluster file selected for STEP 15:
+30	BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.clusters.10.k30.tsv
+WARNING: STEP 15 failed for BM119.
+See log:
+BAMs/all_samples_a1m95/BM119_mt_pipeline/BM119.qc_mt_clusters_on_seurat.best_k.log
+STEP 15B: qc_mt_clusters_on_seurat_safe_terminal_v7_multik.R for fuzzy k-medoids best_k
+pipeline_final_new5_a1m95.bash: line 1327: printf: write error: No space left on device
